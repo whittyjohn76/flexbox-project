@@ -8,19 +8,19 @@
 
 .box--1 {
   height: 100px;
- 
+ width: 100px;
   background-color: purple;
   border: 2px dashed white;
-  flex: 2;
+  
 
  
 }
 .box--2 {
   height: 100px;
- 
+ width: 100px;
   background-color: purple;
   border: 2px dashed white;
-  flex: 2;
+
  
 }
 .box--3 {
@@ -28,7 +28,7 @@
  
   background-color: rgba(73, 243, 6, 0.555);
   border: 2px dashed white;
-  flex: 4;
+  flex: 1;
 
 }
 
