@@ -1,0 +1,30 @@
+#boxes {
+  height: 400px;
+  width: 400px;
+  background-color: rgb(8, 8, 8);
+  
+  display: flex;
+  justify-content: space-around;
+align-items: center;
+}
+
+.box--1 {
+height: 100px;
+width: 100px;
+background-color: purple;
+border: 2px dashed white;
+
+}
+.box--2 {
+    height: 100px;
+width: 100px;
+background-color: purple;
+border: 2px dashed white;
+}
+.box--3 {
+    height: 100px;
+width: 100px;
+background-color: purple;
+border: 2px dashed white;
+
+}
