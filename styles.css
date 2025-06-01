@@ -8,24 +8,27 @@
 
 .box--1 {
   height: 100px;
-  width: 100px;
+ 
   background-color: purple;
   border: 2px dashed white;
- order: 10;
+  flex: 2;
+
  
 }
 .box--2 {
   height: 100px;
-  width: 100px;
+ 
   background-color: purple;
   border: 2px dashed white;
-  order: 9;
+  flex: 2;
+ 
 }
 .box--3 {
   height: 100px;
-  width: 100px;
+ 
   background-color: rgba(73, 243, 6, 0.555);
   border: 2px dashed white;
-  order: 5;
+  flex: 4;
+
 }
 
