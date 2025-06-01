@@ -4,8 +4,10 @@
   background-color: rgb(8, 8, 8);
 
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+ 
 }
 
 .box--1 {
@@ -25,6 +27,5 @@
   width: 100px;
   background-color: purple;
   border: 2px dashed white;
-  align-self: flex-start;
-  margin-left: auto;
+ 
 }
