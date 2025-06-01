@@ -4,41 +4,28 @@
   background-color: rgb(8, 8, 8);
 
   display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  gap: 30px;
-}
+
 
 .box--1 {
   height: 100px;
   width: 100px;
   background-color: purple;
   border: 2px dashed white;
-  text-align: center;
-  text-align: justify;
+ order: 10;
+ 
 }
 .box--2 {
   height: 100px;
   width: 100px;
   background-color: purple;
   border: 2px dashed white;
+  order: 9;
 }
 .box--3 {
   height: 100px;
   width: 100px;
-  background-color: purple;
+  background-color: rgba(73, 243, 6, 0.555);
   border: 2px dashed white;
+  order: 5;
 }
-.box--4 {
-  height: 100px;
-  width: 100px;
-  background-color: rgb(30, 128, 0);
-  border: 2px dashed white;
-}
-.box--5 {
-  height: 100px;
-  width: 100px;
-  background-color: rgb(128, 0, 0);
-  border: 2px dashed white;
-}
+
